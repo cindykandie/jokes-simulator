@@ -1,9 +1,21 @@
+import NextButton from './NextButton'
+import './Joke.css'
 function Joke(props){
     return(
-    <div>
-        <h3>{props.setup}</h3>
-        <p> {props.punchline}</p>
-    </div>
+        <div className="setup-container">
+            <h3>{props.setup}</h3>
+            <div className="punchline-container">
+            <div className="overlay">Click To Reveal</div>
+                <p> <i>"{props.punchline}"</i></p>
+                <div className="reactions-container">
+                    <span>😍😍</span>
+                    <span>😘😘</span>
+                    <span>😣😣</span>
+                    <span>😫😫</span>
+                </div>
+                <NextButton />
+            </div>
+        </div>
     )
     
 }
