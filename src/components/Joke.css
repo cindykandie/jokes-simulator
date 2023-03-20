@@ -17,6 +17,8 @@
     overflow-x: auto;
     align-items: center;
     min-height: 50vh;
+    max-width: 700px;
+
 }
 .setup-container{
     background-color: var(--color4);
@@ -67,7 +69,15 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     cursor: pointer;
+    transition: all 1s ease-in-out;
+    
 }
+.overlay:hover p{
+    text-decoration: underline;
+    color: aqua;
+    transition: all 0.8s ease-in-out;
+}
+
 .button-container{
     display: flex;
     align-items: end;

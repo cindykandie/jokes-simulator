@@ -1,0 +1,33 @@
+.footer-section{
+    margin: 20px 20%;
+    color: white;
+    border-top: 1px solid wheat;
+    padding: 30px;
+}
+label{
+    margin: 7px auto 0;
+}
+input{
+    padding: 10px;
+    margin: 7px auto 0;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=submit]{
+    background: blueviolet;
+    margin: 10px 40px;
+    font-weight: 600;
+}
+a{
+   color: black; 
+   font-weight: 600;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+}

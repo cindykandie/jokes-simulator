@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import JokeContainer from './components/JokeContainer'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
     <div>
       <Header />
       <JokeContainer />
+      
+      <Footer />
     </div>
   )
 }
