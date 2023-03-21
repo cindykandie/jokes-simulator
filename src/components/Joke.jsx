@@ -4,11 +4,15 @@ import {useState} from 'react'
 
 function Joke(props){
     const [showDiv, setShowDiv] = useState(true);
+    const [backgroundColor, setBackgroundColor] = useState('#3c096c');
 
     const handleJokeReveal=()=>{
         setShowDiv(!showDiv);
-        console.log('cake')
+        
     }
+    const handleReactionClick = (color) => {
+        setBackgroundColor(color);
+      }
     return(
         <div className="setup-container">
             <h3>{props.setup}</h3>
@@ -18,11 +22,11 @@ function Joke(props){
                 </p> 
             </div>}
                 <p> <i>"{props.punchline}"</i></p>
-                <div className="reactions-container">
-                    <span>😍😍</span>
-                    <span>😘😘</span>
-                    <span>😣😣</span>
-                    <span>😫😫</span>
+                <div  className="reactions-container">
+                    <span style={{ backgroundColor }} onClick={() => handleReactionClick('#000')}>😍😍</span>
+                    <span style={{ backgroundColor }} onClick={() => handleReactionClick('#000')}>😘😘</span>
+                    <span style={{ backgroundColor }} onClick={() => handleReactionClick('#000')}>😣😣</span>
+                    <span style={{ backgroundColor }} onClick={() => handleReactionClick('#000')}>😫😫</span>
                 </div>
             </div>
         </div>

@@ -8,10 +8,11 @@
 .btn-elements{
     position: absolute;
     right: -100px;
-    width: 100%;
+    width: 100px;
     display: flex;
     align-items: center;
     bottom: 70px;
+    margin-top: 50px;
 
 }
 
