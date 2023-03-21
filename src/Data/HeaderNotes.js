@@ -1,23 +1,42 @@
 export default [
     {
-        image: "",
         note: "Well this is awkward",
         subtitle: "Let's make a bit more awkwaardd"
     },
     {
-        note: "How did the hacker escape the police?",
-        subtitle: "He just ransomware!"
+        note: "How much does a polar bear weigh?",
+        subtitle: "Enough to break the ice I hope!"
     },
     {
-        note: "Why don't pirates travel on mountain roads?",
-        subtitle: "Scurvy."
+        note: "Are your espresso?",
+        subtitle: "Because I like you a latte."
     },
     {
-        note: "Why do bees stay in the hive in the winter?",
-        subtitle: "Swarm."
+        note: "Do you have 11 protons?",
+        subtitle: " Because you’re sodium fine!"
     },
     {
-        note: "What's the best thing about Switzerland?",
-        subtitle: "I don't know, but the flag is a big plus!"
+        note: "Hawaiii",
+        subtitle: "Aloha 🌴🌴🌴🌴🌴🌴"
+    },
+    {
+        note: "Well this is awkward",
+        subtitle: "Let's make a bit more awkwaardd"
+    },
+    {
+        note: "Fancy seeing you here",
+        subtitle: "Let us throw in a giggle"
+    },
+    {
+        note: "You know God gave us brain to work out our problems.",
+        subtitle: "However we used it to create more!."
+    },
+    {
+        note: "I’ve only been wrong once,",
+        subtitle: "and that’s when I thought I was wrong."
+    },
+    {
+        note: "Whoever said nothing is impossible is a liar.",
+        subtitle: " I've been doing nothing for years."
     }
 ]
