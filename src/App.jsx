@@ -10,7 +10,6 @@ function App() {
     <div>
       <Header />
       <JokeContainer />
-      
       <Footer />
     </div>
   )

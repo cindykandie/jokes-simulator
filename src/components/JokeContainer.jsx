@@ -7,7 +7,7 @@ function JokeContainer() {
   const [jokeNumber, setJokeNumber] = useState(Math.floor(Math.random() * 10));
 
   const jokeElements = JokesAPI.map((joke, index) => {
-    return <Joke key={index} setup={joke.setup} punchline={joke.punchline} />;
+    return <Joke key={index} joke = {joke} />;
   });
 
   function handleNextJoke() {
