@@ -14,17 +14,17 @@ function Footer(){
             <ul>
             <li title='GitHub'>
                 <a href="https://github.com/cindykandie/jokes-simulator" target="_blank">
-                    <img src="../src/assets/github.svg" alt="GitHub Repo" />
+                    <img src="/assets/github.svg" alt="GitHub Repo" />
                 </a>
             </li>
             <li title='Inspo'>
                 <a href="https://www.awwwards.com/inspiration/the-dad-jokes-a-small-studio" target="_blank">
-                    <img src="../src/assets/figma.svg" alt="Inspo" />
+                    <img src="/assets/figma.svg" alt="Inspo" />
                 </a>
             </li>
             <li title='Portfolio'>
                 <a href="https://cindykandie.github.io/portfolio" target="_blank">
-                    <img src="../src/assets/tool.svg" alt="Portfolio" />
+                    <img src="/assets/tool.svg" alt="Portfolio" />
                 </a>
             </li>
             
