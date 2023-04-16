@@ -1,4 +1,3 @@
-import NextButton from './NextButton'
 import './Joke.css'
 import {useState} from 'react'
 
@@ -23,10 +22,10 @@ function Joke(props){
             </div>}
                 <p> <i>"{props.joke.punchline}"</i></p>
                 <div  className="reactions-container">
-                    <span style={{ backgroundColor }} onClick={() => handleReactionClick('#000')}>😍😍</span>
-                    <span style={{ backgroundColor }} onClick={() => handleReactionClick('#000')}>😘😘</span>
-                    <span style={{ backgroundColor }} onClick={() => handleReactionClick('#000')}>😣😣</span>
-                    <span style={{ backgroundColor }} onClick={() => handleReactionClick('#000')}>😫😫</span>
+                    <span style={{ backgroundColor }}>😍😍</span>
+                    <span style={{ backgroundColor }}>😘😘</span>
+                    <span style={{ backgroundColor }}>😣😣</span>
+                    <span style={{ backgroundColor }}>😫😫</span>
                 </div>
             </div>
         </div>

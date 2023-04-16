@@ -3,7 +3,6 @@ import './Header.css'
 function Header(){
     let noteNumber = Math.floor(Math.random()* 10)
     let image = `../src/assets/faceshots/img${noteNumber}.jpg`
-    console.log(noteNumber)
     const NoteHeadings = 
         <header>
             <div>

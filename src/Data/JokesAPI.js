@@ -12,6 +12,10 @@ export default [
         punchline: "Scurvy."
     },
     {
+        setup: "What did baby corn ask mama corn?",
+        punchline: "Where is the popcorn?"
+    },
+    {
         setup: "Why do bees stay in the hive in the winter?",
         punchline: "Swarm."
     },
