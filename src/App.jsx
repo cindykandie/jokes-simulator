@@ -1,18 +1,21 @@
-import './App.css'
-import Header from './components/Header'
-import JokeContainer from './components/JokeContainer'
-import Footer from './components/Footer'
-
+import "./App.css";
+import AppRoutes from "./Routes";
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./components/NavBar";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
-  
   return (
     <div>
-      <Header />
-      <JokeContainer />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Header />
+        <AppRoutes />
+        <Footer />
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

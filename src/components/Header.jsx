@@ -1,10 +1,11 @@
 import Notes from '../Data/HeaderNotes'
-import './Header.css'
+import './custom-styles/Header.css'
 function Header(){
     let noteNumber = Math.floor(Math.random()* 10)
     let image = `/assets/faceshots/img${noteNumber}.jpg`
     const NoteHeadings = 
         <header>
+            <h1>Welcome to the Jokes Simulator!</h1>
             <div>
                 <img src={image}/>
             </div>

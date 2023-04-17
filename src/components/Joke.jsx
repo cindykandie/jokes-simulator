@@ -1,4 +1,4 @@
-import './Joke.css'
+import './custom-styles/Joke.css'
 import {useState} from 'react'
 
 function Joke(props){
