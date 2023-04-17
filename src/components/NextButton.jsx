@@ -1,5 +1,5 @@
 import React from 'react';
-import './NextButton.css';
+import './custom-styles/NextButton.css';
 
 function NextButton(props) {
   function handleNextJoke() {
