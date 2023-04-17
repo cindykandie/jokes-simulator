@@ -1,3 +1,18 @@
+:root{
+    --mainColor: #5a189a;
+    --darkColor: #10002b;
+    --lightColor: #e0aaff;
+    --color1: #240046;
+    --color2: #3c096c;
+    --color3: #7b2cbf;
+    --color4: #9d4edd;
+    --color5: #c77dff;
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color3);
+    background: radial-gradient(circle, rgba(16,0,43,1) 8%, rgba(123,44,191,1) 58%, rgba(60,9,108,1) 93%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -1,0 +1,115 @@
+:root{
+    --mainColor: #5a189a;
+    --darkColor: #10002b;
+    --lightColor: #e0aaff;
+    --color1: #240046;
+    --color2: #3c096c;
+    --color3: #7b2cbf;
+    --color4: #9d4edd;
+    --color5: #c77dff;
+  }
+  
+  .main-container{
+    background-color: var(--color2);
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 40vh;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .setup-container{
+    background-color: var(--color4);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .punchline-container{
+    background-color: var(--color5);
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    min-height: 12rem;
+    width: 83%;
+    position: relative;
+  }
+  
+  .reactions-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .reactions-container span{
+    border-radius: 3rem;
+    padding: 0.5rem;
+    background-color: var(--color4);
+    font-size: 1.1rem;
+  }
+  
+  .reactions-container span:hover{
+    border-radius: 3rem;
+    padding: 0.5rem;
+    background-color: var(--color2);
+    font-size: 1.1rem;
+  }
+  
+  .overlay{
+    background-color: var(--color2);
+    opacity: 0.97;
+    filter: blur(100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-32px) translateY(-32px);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+  
+  .overlay:hover p{
+    text-decoration: underline;
+    color: aqua;
+    transition: all 0.8s ease-in-out;
+  }
+  
+  @media (max-width: 600px) {
+    .main-container {
+      padding: 1rem;
+      border-radius: 1rem;
+      min-height: 100vh;
+    }
+  
+    .punchline-container {
+      font-size: 1.2rem;
+      height: 250px;
+      min-height: 6rem;
+    }
+  
+    .reactions-container {
+      flex-direction: row;
+      margin-top: 0.5rem;
+    }
+  
+    .reactions-container span {
+      margin: 0
+    }
+}

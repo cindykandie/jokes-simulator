@@ -1,18 +1,16 @@
 import './App.css'
-import Joke from './components/Joke'
-import JokesAPI from './Data/JokesAPI'
+import Header from './components/Header'
+import JokeContainer from './components/JokeContainer'
+import Footer from './components/Footer'
+
 
 function App() {
-  const jokeElements = JokesAPI.map((joke)=>{
-    return <Joke 
-    setup = {joke.setup}
-    punchline = {joke.punchline}/>
-    }
-  )
+  
   return (
     <div>
-      <h1>Its Just a Joke</h1>
-      {jokeElements}
+      <Header />
+      <JokeContainer />
+      <Footer />
     </div>
   )
 }

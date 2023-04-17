@@ -1,0 +1,35 @@
+.button-container{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: 30px;
+    position: relative;
+}
+.btn-elements{
+    position: absolute;
+    right: -100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    bottom: 70px;
+    margin-top: 50px;
+
+}
+
+button:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+.button-container:hover{
+    color: aqua;
+}
+.next-btn{
+    border: none;
+    color: var(--color1);
+    background-color: inherit;
+    opacity: 0.9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+}
