@@ -1,4 +1,5 @@
 import './Footer.css'
+import '../App.css'
 function Footer(){
     return(
         <section className='footer-section'>
@@ -6,7 +7,8 @@ function Footer(){
                 <label>Get daily jokes sent to your email</label> <br />
                 <input type="email" name="" id="" placeholder="Your email address"/>
                 <br />
-                <input type="submit" value="SUBMIT" />
+                <button className="bg-red-500 hover:bg-blue-700 text-white font-bold my-20 py-2 px-4 rounded">SUBMIT</button>
+                
             </form>
             
             <p>Made by <a href=""> Cindy Kandie</a></p>
